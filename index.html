@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" type="text/css" rel="styleSheet"/>
+    <title>TO DO List</title>
+</head>
+<body>
+    <section class="all">
+            <section class="data-inp">
+            <div class="add">
+                <select id="users"> 
+                    <option value="1">mahmoud</option>
+                    <option value="2">ahmed</option>
+                    <option value="3">moustafa</option>
+                </select>
+                <input id="data" type="text" placeholder="Enter Your New Task"/>
+                <button id="add">Add</button>
+            </div>
+            <div class="search">
+                    <input id="search" type="search" placeholder="Enter Your search key"/>
+            </div>    
+            </section>
+            <section class="data-show">
+                <div class="tasks">
+                    <h2>Tasks List</h2>
+                    <ul class="tasks-list" id="tList">
+                        
+                    </ul>
+                </div>
+                <div class="task-complete">
+                    <h2>Completed Tasks</h2>
+                    <ul class="complete-list" id="cList">
+        
+                    </ul>
+                </div>
+            </section>
+    </section>
+    <script src="plugin.js"></script>
+</body>
+</html>
